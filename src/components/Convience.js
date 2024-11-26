@@ -25,10 +25,10 @@ const Convience = () => {
 
             {/* Text content */}
             <div className="p-5">
-              <h5 className="mb-2 text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white group-hover:text-[#F58220]">
+              <h5 className="mb-2 text-2xl sm:text-3xl font-bold tracking-tight text-white group-hover:text-[#F58220]">
                 KF GALLERY
               </h5>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-white">
                 국내외 방문객에게 전시회, 문화 행사, 교육 프로그램 등 개최 국제
                 교류를 촉진하는 다양한 전시와 행사에 참여해보세요.
               </p>
@@ -54,10 +54,10 @@ const Convience = () => {
 
             {/* Text content */}
             <div className="p-5">
-              <h5 className="mb-2 text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white group-hover:text-[#F58220]">
+              <h5 className="mb-2 text-2xl sm:text-3xl font-bold tracking-tight text-white group-hover:text-[#F58220]">
                 센터원 Wellness
               </h5>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-white">
                 피트니스, 골프GDR+, 필라테스, GX,스피닝, 사우나,
                 PT(퍼스널트레이닝) 등 운영 바쁜 일상과 업무에서 잠시 휴식을
                 취해보세요.
@@ -83,10 +83,10 @@ const Convience = () => {
 
           {/* Text Content */}
           <div className="mt-10 p-5">
-            <h5 className="mb-2 text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white group-hover:text-[#F58220]">
+            <h5 className="mb-2 text-2xl sm:text-3xl font-bold tracking-tight text-white group-hover:text-[#F58220]">
               SPARKPLUS
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p className="mb-3 font-normal text-white">
               국내외 방문객에게 전시회, 문화 행사, 교육 프로그램 등 개최 국제
               교류를 촉진하는 다양한 전시와 행사에 참여해보세요.
             </p>
@@ -104,6 +104,7 @@ const Convience = () => {
 };
 
 export default Convience;
+
 
 
 
