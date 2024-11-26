@@ -1,0 +1,50 @@
+
+@keyframes slide-in-from-top {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.content--wrap {
+  animation: slide-in-from-top 0.5s ease-out;
+
+  width: 350px;
+  height: 150px;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.85;
+  margin-bottom: 0;
+}
+
+.slick-current {
+  width: 850px;
+  height: 270px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {  .content--wrap {
+    width: 350px;
+    height: 150px;
+  }
+  .slick-current {
+    width: 850px;
+    height: 270px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .content--wrap {
+    width: 450px;
+    height: 180px;
+  }
+  .slick-current {
+    width: 650px;
+    height: 220px;
+  }
+}
